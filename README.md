@@ -1,4 +1,4 @@
-# vornoi-TBS
+# voronoi-TBS
 ドコモ・バイクシェアのポートをボロノイ図に落とし、ポート距離的に移動が不便な地域を示します
 
 ## 流れ
@@ -12,18 +12,18 @@
 ogr2ogr -f GeoJSON TBS.geojson TBS.kml
 ```
 
-3. geojson形式に変換したファイルをvornoi.Rで分析。shp形式で書き出します。
+3. geojson形式に変換したファイルをvoronoi.Rで分析。shp形式で書き出します。
 
 4. shp2geojson
 
 ```
-ogr2ogr -f geoJSON vornoi-TBS.geojson vornoi-TBS.shp
+ogr2ogr -f geoJSON voronoi-TBS.geojson vornoi-TBS.shp
 ```
 
 5. geojsonをleaflet.Rで可視化!
 
 
 ## 結果
-![](https://github.com/pandorina1013/vornoi-TBS/blob/master/vornoi.png)
+![](https://github.com/pandorina1013/voronoi-TBS/blob/master/vornoi.png)
 
 yey.
