@@ -24,6 +24,6 @@ ogr2ogr -f geoJSON voronoi-TBS.geojson vornoi-TBS.shp
 
 
 ## 結果
-![](https://github.com/pandorina1013/voronoi-TBS/blob/master/vornoi.png)
+![](https://github.com/pandorina1013/voronoi-TBS/blob/master/voronoi.png)
 
 yey.
